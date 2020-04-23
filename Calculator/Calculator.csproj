@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\OneDrive\Pulpit\Biblioteki do C#\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,16 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="MainBoard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MainBoard.Designer.cs">
+      <DependentUpon>MainBoard.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="MainBoard.resx">
+      <DependentUpon>MainBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -82,6 +85,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subtract_64px.png" />
+    <None Include="Resources\plus_math_64px.png" />
+    <None Include="Resources\cheap_64px.png" />
+    <None Include="Resources\circled_2_64px.png" />
+    <None Include="Resources\circled_3_64px.png" />
+    <None Include="Resources\circled_4_64px.png" />
+    <None Include="Resources\circled_5_64px.png" />
+    <None Include="Resources\circled_6_64px.png" />
+    <None Include="Resources\circled_7_64px.png" />
+    <None Include="Resources\circled_8_64px.png" />
+    <None Include="Resources\circled_9_64px.png" />
+    <None Include="Resources\creative_commons_zero_64px.png" />
+    <None Include="Resources\divide_64px.png" />
+    <Content Include="Resources\icons8_delete_64px_1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
